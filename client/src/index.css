@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 15px;
+  
+}
+
+input , select , textarea{
+  min-height: 45px !important;
+  border: 1px solid #b9b9b9 !important;
+  width: 100%;
+}
+
+input:focus , textarea:focus , select:focus{
+  outline: none !important;
+  border: 1px solid #ec1186 !important;
+  box-shadow: none !important;
+}
+
+button{
+  height: 45px !important;
+  box-shadow: none !important;
+  background-color: rgb(255, 119, 0);
+}
+
+table{
+  border: #a1a1a1 1px solid !important;
+  border-radius: 2px;
+}
+
+i{
+  font-size: 20px !important;
+}
+
+.max-width{
+  max-width: max-content !important;
+}
+
+.ri-logout-box-r-line {
+  font-size: 24px; /* Adjust size as needed */
+  color: #000; /* Default color */
+
+  /* Transition properties */
+  transition: color 0.3s ease, transform 0.3s ease, cursor 0.3s ease;
+}
+
+.ri-logout-box-r-line:hover {
+  color: #ff0000; /* New color on hover */
+  cursor: pointer; /* Change cursor on hover */
+  transform: scale(1.5); /* Increase size on hover */
+}
+
+/* Timer container */
+.custom-timer-container {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #f6f3f3;
+}
+
+/* Timer units */
+.custom-timer-units {
+  display: flex;
+  align-items: center;
+}
+
+.custom-timer-unit {
+  padding: 9px;
+  border-radius: 3px;
+  background-color: #df0303;
+  margin-right: 4px;
+  min-width: 30px;
+  text-align: center;
+  animation: customTimerScale 0.3s ease-in-out infinite alternate;
+}
+
+.separator {
+  font-size: 16px;
+  margin-right: 3px;
+  margin-left: 3px;
+  color: #333;
+}
+/* Animation for timer units */
+@keyframes customTimerScale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
+.name-ta {
+  font-size: x-large;
+  font-weight: bold;
+  margin-right: 100px;
+  color: #000;
+}
+
+.text-prey{
+  margin-left: 65%;
+}
+.text-mrey{
+  margin-top: 4%;
+  margin-left: 44%;
+}
+

@@ -1,0 +1,69 @@
+.forgot-password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .forgot-password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 107vh;
+    background-image: url(https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg?auto=format&q=60&w=1815&h=1361.25&fit=crop&crop=faces);
+    background-position: center;
+  }
+  
+  .forgot-password-form {
+    width: 370px;
+    background-color: rgba(51, 48, 55, 0.3);
+    padding: 40px;
+    border-radius: 15px;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    height: 66%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adding a subtle box shadow */
+  }
+  
+  .forgot-password-button {
+    margin-top: 10px;
+    margin-left: 0; /* Adjusted button margin */
+    width: 100%; /* Button occupies full width */
+  }
+  
+  .arrow-icon {
+    background-color: rgb(13, 1, 1);
+    border-radius: 7px;
+    margin-right: 70%;
+    padding-left: 10px;
+    margin-bottom: 0%;
+    transition: transform 0.7s ease;
+  }
+  
+  .arrow-icon:hover {
+    background-color: rgb(11, 10, 0);
+    transform: scale(0.85);
+    border: 3px solid rgb(235, 233, 233);
+  }
+  
+  .name-sub{
+    color: rgb(234, 234, 0);
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 5%;
+  }
+
+.email-label,
+.pan-ssn-label,
+.new-password-label {
+    color: blue; /* Specify the color you want */
+    /* Add any other styles you want for the labels */
+}
+
+.Container{
+  padding: 1%;
+}
+.Login-Form{
+  padding: 11%;
+  
+}

@@ -1,0 +1,57 @@
+.navbar {
+    background-color: rgb(1, 23, 1);
+    width: 100%;
+    padding-top: 5px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .logo-img {
+    max-width: 250px; /* Adjust the size as needed */
+    height: auto;
+    margin-left: 20px;
+    transition: transform 0.3s ease; /* Add animation to the logo on hover */
+  }
+  
+  .logo-link:hover .logo-img {
+    transform: scale(1.1);
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 55px;
+    margin-right: 30px; /* Adjust margin to create space between logo and links */
+  }
+  
+  .nav-links li a {
+    color: rgb(21, 1, 8);
+    font-size: 19px;
+    font-weight: 900;
+    text-decoration: overline;
+    align-items: center; /* Align items vertically */
+    margin-bottom: 15px;
+    padding: 7px 10px 5px 10px;
+    background-color: #f6690a; /* Set your desired button color */
+    border-radius: 5px;
+  }
+  .nav-links li a:hover {
+    color: rgb(194, 99, 4);
+    background-color: aliceblue;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: overline;
+  }
+  

@@ -1,0 +1,23 @@
+.user-details {
+    display: flex;
+    flex-direction: column;
+    width: 50%; /* Adjust width as needed */
+    margin: auto; /* Centers the user details */
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: bold;
+    color: #333; /* Adjust color as needed */
+    flex-basis: 30%; /* Adjust label width */
+}
+
+.value {
+    flex-basis: 70%;
+    color: #666; /* Adjust color as needed */
+}

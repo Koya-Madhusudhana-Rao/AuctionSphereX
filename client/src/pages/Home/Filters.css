@@ -1,0 +1,69 @@
+/* Container styles */
+.w-72 {
+    width: 18rem;
+    background-color: #f8f6f6; /* Background color */
+    border-radius: 0.5rem;
+    padding: 1.2rem;
+    box-shadow: 0 4px 6px rgba(236, 11, 11, 0.1); /* Shadow */
+  }
+  
+  /* Title styles */
+  .text-orange-900 {
+    color: #ff9900; /* Title color */
+    font-size: 1.5rem; /* Larger title font size */
+    font-weight: bold;
+    margin-bottom: 1rem; /* Spacing below title */
+  }
+  
+  input[type="checkbox"]:checked {
+    background-color: #ff9900; /* Checked background color */
+  }
+  
+  /* Filters heading styles */
+  .text-gray-600 {
+    color: #c80b57;
+    font-size: 1.25rem; /* Slightly larger font size */
+    font-weight: bold;
+    margin-top: 1.0rem; /* Increased margin top */
+  }
+  
+  /* Container for categories and ages */
+  .flex-col > div {
+    margin-top: 0.2rem; /* Consistent spacing */
+  }
+  
+  /* Add this to your existing CSS or create a new CSS file */
+.item-animation {
+  transition: transform 0.7s ease;
+   /* Adjust duration and easing as needed */
+  
+}
+
+.item-animation:hover {
+  transform: scale(0.89);
+  background-color: #f6c9db;
+
+   /* Adjust the scale factor for the desired effect */
+}
+
+/* CSS for the timer */
+.timer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #9d0808;
+}
+
+/* Style for individual time units */
+.timer-unit {
+  margin-left: 2px;
+  margin-right: 4px;
+  padding: 3px 5px;
+  border-radius: 3px;
+  background-color: #f3f3f3;
+  /* Adjust font size and color as needed */
+  font-size: 12px;
+  color: #333;
+}
