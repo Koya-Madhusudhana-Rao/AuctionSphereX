@@ -8,13 +8,13 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="social-icons">
-      <a href="https://github.com/KPNVSR" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/Koya-Madhusudhana-Rao" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
-        <a href="mailto:pranaykommareddy21@gmail.com" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:madhusudhanaraokoya@gmail.com" target="_blank" rel="noopener noreferrer">
           <SiGmail />
         </a>
-        <a href="https://instagram.com/kommareddy.subba?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/madhu63096/" target="_blank" rel="noopener noreferrer">
           <FaInstagram />
         </a>
       </div>
