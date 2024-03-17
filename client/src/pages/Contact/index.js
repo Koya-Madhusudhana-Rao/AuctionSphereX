@@ -44,7 +44,7 @@ function Contact() {
     setIsSending(true);
 
     emailjs
-      .sendForm('service_c3k2k8r', 'template_4j9dp0t', form.current, 'OhsJUFLhnexv2OR2T')
+      .sendForm('service_8msxxrj', 'template_43ivxke', form.current, 'OtyldcbYOdHaCwa89')
       .then(
         (result) => {
           console.log(result.text);
