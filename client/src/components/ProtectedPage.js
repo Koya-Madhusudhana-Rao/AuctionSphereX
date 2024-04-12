@@ -28,44 +28,16 @@ function ProtectedPage({ children }) {
       if (response.success) {
         dispatch(SetUser(response.data));
       } else {
-        navigate("/login");
+        navigate("/main");
         message.error(response.message);
       }
     } catch (error) {
       dispatch(SetLoader(false));
-      navigate("/login");
+      navigate("/main");
       message.error(error.message);
     }
   };
-  // const handleMenuClick = (e) => {
-  //   if (e.key === "general") {
-  //     navigate("/profile");
-
-  //     // Handle 'General' click
-  //     // Example: navigate("/general");
-  //   } else if (e.key === "bids") {
-  //     navigate("/bids");
-  //     // Handle 'Bids' click
-  //     // Example: navigate("/bids");
-  //   } else if (e.key === "products") {
-  //     // Handle 'Products' click
-  //     // Example: navigate("/products");
-  //   } else if (e.key === "logout") {
-  //     // Handle 'Logout' click
-  //     localStorage.removeItem("token");
-  //     navigate("/login");
-  //   }};
-
-    // const menu = (
-    //   <Menu onClick={handleMenuClick}>
-    //     <Menu.Item key="general">General</Menu.Item>
-    //     <Menu.Item key="bids">Bids</Menu.Item>
-    //     <Menu.Item key="products">Products</Menu.Item>
-    //     <Menu.Divider />
-    //     <Menu.Item key="logout">Logout</Menu.Item>
-    //   </Menu>
-    // );
-
+ 
   const getNotifications = async () => {
     try {
       const response = await GetAllNotifications();
