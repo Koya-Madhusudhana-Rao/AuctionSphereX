@@ -1,32 +1,63 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+  --brand-pink: #ff4fd8;
+  --brand-purple: #7b5cff;
+  --brand-blue: #2dd4ff;
+  --brand-orange: #ff8a00;
+  --ink-900: #0f172a;
+  --ink-600: #475569;
+  --surface: #ffffff;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Poppins', 'Montserrat', sans-serif !important;
   font-size: 15px;
-  
+}
+
+body {
+  background: radial-gradient(circle at top, rgba(123, 92, 255, 0.15), transparent 55%),
+    radial-gradient(circle at 20% 20%, rgba(45, 212, 255, 0.2), transparent 45%),
+    #f8fafc;
+  color: var(--ink-900);
 }
 
 input , select , textarea{
   min-height: 45px !important;
-  border: 1px solid #b9b9b9 !important;
+  border: 1px solid #d4d4d8 !important;
+  border-radius: 12px;
+  padding: 0 14px;
+  background-color: var(--surface);
+  color: var(--ink-900);
   width: 100%;
 }
 
 input:focus , textarea:focus , select:focus{
   outline: none !important;
-  border: 1px solid #ec1186 !important;
-  box-shadow: none !important;
+  border: 1px solid var(--brand-purple) !important;
+  box-shadow: 0 0 0 3px rgba(123, 92, 255, 0.2) !important;
 }
 
 button{
   height: 45px !important;
-  box-shadow: none !important;
-  background-color: rgb(255, 119, 0);
+  border-radius: 999px;
+  border: none;
+  box-shadow: 0 10px 20px rgba(123, 92, 255, 0.2) !important;
+  background: linear-gradient(120deg, var(--brand-purple), var(--brand-pink));
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(123, 92, 255, 0.3) !important;
 }
 
 table{
@@ -111,4 +142,3 @@ i{
   margin-top: 4%;
   margin-left: 44%;
 }
-
