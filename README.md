@@ -26,7 +26,7 @@ If you want to run it on your local system, follow these steps:
     ```
 
 4. **Set Up Environment Variables:**
-    Create a `.env` file in the root directory and define the following variables:
+    Create a `.env` file in the root directory (you can copy `.env.example`) and define the following variables:
     ```plaintext
     mongo_url = YOUR_MONGODB_URL
     jwt_secret = YOUR_JWT_TOKEN
@@ -61,4 +61,3 @@ Mongo DB Connection Successful
 Now, both frontend and backend are up and running locally.
 
 Enjoy exploring AuctionSphereX!
-
